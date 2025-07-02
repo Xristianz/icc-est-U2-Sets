@@ -11,6 +11,7 @@ public class ContactoController {
     
     public ContactoController(){
         runTreeContacto();
+        crunTreeContactoPorTelefonoDesc();
         
         
     }
@@ -22,6 +23,7 @@ public class ContactoController {
         contactos.add(new Contacto("Ana", "Perez", "987654321"));
         contactos.add(new Contacto("Pedro", "Lopez","123456789"));
         contactos.add(new Contacto("Pedro", "Lopez", "222222222"));
+        System.out.println("Comparador 1");
         for (Contacto contacto : contactos){
             System.out.println(contacto);
         }
@@ -36,6 +38,7 @@ public class ContactoController {
         contactos.add(new Contacto("Ana", "Perez", "987654321"));
         contactos.add(new Contacto("Pedro", "Lopez","123456789"));
         contactos.add(new Contacto("Pedro", "Lopez", "222222222"));
+        System.out.println("Comparador 2 nombre - apellido - numero descendente");
         for (Contacto contacto : contactos){
             System.out.println(contacto);
         }

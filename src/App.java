@@ -15,12 +15,10 @@ public class App {
         runTreeHashSet(setsito);
         runComparador(setsito);
         runComparadorDes(setsito);
-        ContactoController comparador = new ContactoController();
         System.out.println("Cristian Moscoso");
-        System.out.println("Comparador 1");
-        comparador.runTreeContacto();
-        System.out.println("Comparador 2");
-        comparador.crunTreeContactoPorTelefonoDesc(); 
+        ContactoController comparador = new ContactoController();
+        
+        
 
 
         

@@ -81,3 +81,6 @@ Se analizan las diferencias en el comportamiento de cada estructura, especialmen
 
 ## 🚀 Ejecución
 ![alt text](image.png)
+
+## Imagen 2:
+![alt text](image-2.png)
