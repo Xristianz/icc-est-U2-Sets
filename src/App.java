@@ -1,7 +1,9 @@
 import java.nio.channels.Pipe.SourceChannel;
 import java.util.Set;
 
+import controllers.ContactoController;
 import controllers.Sets;
+import util.ContactoComparador;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -13,6 +15,13 @@ public class App {
         runTreeHashSet(setsito);
         runComparador(setsito);
         runComparadorDes(setsito);
+        ContactoController comparador = new ContactoController();
+        System.out.println("Cristian Moscoso");
+        System.out.println("Comparador 1");
+        comparador.runTreeContacto();
+        System.out.println("Comparador 2");
+        comparador.crunTreeContactoPorTelefonoDesc(); 
+
 
         
     }
@@ -50,4 +59,6 @@ public class App {
             System.out.println(set);
         } 
     }
+
+
 }
