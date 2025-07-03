@@ -2,21 +2,23 @@ import java.nio.channels.Pipe.SourceChannel;
 import java.util.Set;
 
 import controllers.ContactoController;
+import controllers.Ejercicio;
 import controllers.Sets;
 import util.ContactoComparador;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("\nNombres: Cristian Moscoso");
-        System.out.println(" ");
-        Sets setsito = new Sets();
-        runHashSet(setsito);
-        runLinkedHashSet(setsito);
-        runTreeHashSet(setsito);
-        runComparador(setsito);
-        runComparadorDes(setsito);
-        System.out.println("Cristian Moscoso");
-        ContactoController comparador = new ContactoController();
+        // System.out.println("\nNombres: Cristian Moscoso");
+        // System.out.println(" ");
+        // Sets setsito = new Sets();
+        // runHashSet(setsito);
+        // runLinkedHashSet(setsito);
+        // runTreeHashSet(setsito);
+        // runComparador(setsito);
+        // runComparadorDes(setsito);
+        // System.out.println("Cristian Moscoso");
+        // ContactoController comparador = new ContactoController();
+        Ejercicio ej = new Ejercicio();
         
         
 
